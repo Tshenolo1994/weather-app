@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Weather app</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  </head>
+  <body>
+    <div class="app-wrap">
+      <div class='toggle'>
+        <div class='theme-switch-wrapper'>
+          <label class='theme-switch' for='checkbox'>
+            <input id='checkbox' type='checkbox'>
+            <div class='slider round'></div>
+          </label>
+        </div>
+      </div>
+      <header>
+        <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+      </header>
+    
+      <main>
+        <section class="location">
+          <div class="city">Johannesburg, ZAR</div>
+          <div class="date">Thursday 10 January 2020</div>
+    
+        </section>
+        <div class="current">
+          <div class="temp">15<span>°c</span></div>
+          <div class="weather">Sunny</div>
+          <div class="high-low"><i class="fas fa-long-arrow-alt-down"></i><span>Low</span> &nbsp;<span class="low">13°c</span><span class="space"></span><i class="fas fa-long-arrow-alt-up"></i><span>High</span> &nbsp;<span class="high">16°c</span></div>
+        </div>
+      </main>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
